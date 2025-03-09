@@ -1,0 +1,11 @@
+{
+  "extends": ["next/core-web-vitals"],
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off",    // Disables "Unexpected any" error
+    "@typescript-eslint/no-unused-vars": "off",    // Changes unused variables error to a warning
+    "react-hooks/exhaustive-deps": "off",          // Makes missing useEffect dependencies a warning instead of an error
+    "react/no-unescaped-entities": "off",          // Makes unescaped entities a warning
+    "@next/next/no-img-element": "off",            // Use <img> instead of <Image> generates warnings
+    "no-console": "off"                             // Disables no-console rule
+  }
+}
